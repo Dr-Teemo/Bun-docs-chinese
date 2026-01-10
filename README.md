@@ -1,43 +1,31 @@
-# Mintlify Starter Kit
+<p align="center">
+  <a href="https://bun.90.ms">
+		<img src="https://github.com/user-attachments/assets/50282090-adfd-4ddb-9e27-c30753c6b161" alt="Logo" height="170" />
+	</a>
+</p>
+<h1 align="center">Bun Docs 中文文档(https://bun.90.ms)</h1>
 
-Use the starter kit to get your docs deployed and ready to customize.
+Bun官方文档：快速、全能的JavaScript运行时。
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+## 发展
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+安装 [Mintlify CLI](https://www.npmjs.com/package/mint) 以在本地预览文档：
 
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
-npm i -g mint
+```bash
+bun install -g mint
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+运行开发服务器：
 
-```
+```bash
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+该网站将开放于 `http://localhost:3000`.
 
-## Publishing changes
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## 更新
 
-## Need help?
+欢迎大家的贡献！请开启问题或提交拉取请求。
 
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)

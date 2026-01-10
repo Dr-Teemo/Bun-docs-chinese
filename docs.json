@@ -695,6 +695,7 @@
           {
             "tab": "Reference",
             "icon": "book",
+            "hidden": true,
             "href": "https://bun.com/reference"
           },
           {
@@ -1341,6 +1342,7 @@
           {
             "tab": "Reference",
             "icon": "book",
+            "hidden": true,
             "href": "https://bun.com/reference"
           },
           {

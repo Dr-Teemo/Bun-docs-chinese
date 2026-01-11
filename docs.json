@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Bun",
+  "name": "Bun官方文档 - Bun中文文档",
   "seo": {
     "metatags": {
       "canonical": "https://bun.90.ms"

@@ -14,18 +14,18 @@ Bun 支持 [package.json] 中的 [`workspaces`](https://docs.npmjs.com/cli/v9/us
 ├── package.json
 ├── tsconfig.json
 └── packages
-    ├── pkg-a
-    │   ├── index.ts
-    │   ├── package.json
-    │   └── tsconfig.json
-    ├── pkg-b
-    │   ├── index.ts
-    │   ├── package.json
-    │   └── tsconfig.json
-    └── pkg-c
-        ├── index.ts
-        ├── package.json
-        └── tsconfig.json
+    ├── pkg-a
+    │   ├── index.ts
+    │   ├── package.json
+    │   └── tsconfig.json
+    ├── pkg-b
+    │   ├── index.ts
+    │   ├── package.json
+    │   └── tsconfig.json
+    └── pkg-c
+        ├── index.ts
+        ├── package.json
+        └── tsconfig.json
 ```
 
 在根 [package.json] 中，`"workspaces"` 键用于表示哪些子目录应被视为单一代码库中的包/工作区。通常将所有工作区放在名为 `packages` 的目录中。
@@ -42,7 +42,7 @@ Bun 支持 [package.json] 中的 [`workspaces`](https://docs.npmjs.com/cli/v9/us
 ```
 
 <Note>
-  **Glob 支持** — Bun 在 `"workspaces"` 中支持完整的 glob 语法，包括负向模式（例如
+  **Glob 支持** — Bun 在 `"workspaces"` 中支持完整的 glob 语法,包括负向模式（例如
   `!**/excluded/**`）。请参见[此处](/runtime/glob#supported-glob-patterns) 获取支持语法的完整列表。
 </Note>
 
